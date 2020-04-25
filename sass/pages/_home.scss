@@ -1,0 +1,26 @@
+.section-about {
+    background-color: $color-grey-light;
+    padding: 25rem 0;
+    margin-top: -20vh;
+
+    &__text-box {
+        margin-top: 4rem;
+    }
+}
+
+.section-features {
+    padding: 20rem 0;
+    background-image: linear-gradient(
+        to right bottom, 
+        rgba($color-wave-light, 0.601), 
+        rgba($color-wave-dark, 0.601)), 
+    url(../img/feature-image.jpg);
+    background-size: cover;
+    margin-top: -10rem;
+    transform: skewY(-7deg);
+
+    & > * {
+    transform: skewY(7deg);
+    }
+}
+

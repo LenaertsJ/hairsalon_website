@@ -1,0 +1,14 @@
+{
+  "name": "hair-salon",
+  "version": "1.0.0",
+  "description": "website hairsalon",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Julie Lenaerts",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}

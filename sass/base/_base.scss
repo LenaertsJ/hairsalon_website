@@ -1,0 +1,15 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%; //default font-size is 16px. We want 10 px, so we divide 10 by 16 to get the right percentage.
+}
+
+body {
+    box-sizing: border-box;
+}
